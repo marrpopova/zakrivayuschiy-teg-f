@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-text: Inter;
+  --font-accent: PressStart2P;
+  --font-weight-text: 400;
+  --font-weight-head: 700;
+  --color-bg: #fff;
+  --color: #000;
+  --color-disabled: #00000099;
+  --color-button: #fff;
+  --color-filling-heart: #FF0000;
+  --repeating-gradient-inline: repeating-linear-gradient(to left, #d3d3d3, #d3d3d3 2px, rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px);
+  --repeating-gradient-block: repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px);
+  --linear-gradient: linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  --inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+}
